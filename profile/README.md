@@ -6,3 +6,5 @@ Synvya powers commerce in the agentic world, equipping businesses of all sizes w
 By enabling frictionless transactions and interoperability between diverse AI agents, Synvya unlocks a new era of autonomous, decentralized trade.
 
 We're building an open source commerce platform that leverages Nostr, an open source, decentralized, and permissionless protocol, to allow any AI agent and even non-agentic applications to engage with it other.
+
+Follow us on [Nostr](https://yakihonne.com/users/npub1nar4a3vv59qkzdlskcgxrctkw9f0ekjgqaxn8vd0y82f9kdve9rqwjcurn) or check or https://www.synvya.com for more details.
