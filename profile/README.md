@@ -1,5 +1,5 @@
 # Synvya
-### Powering commerce in the agentic world
+### Powering commerce for the agentic era
 
 We envision a world where AI agents operate on an open, standardized, and decentralized network —a Nostr agentic ecosystem that unlocks new levels of creativity and collaboration.
 
