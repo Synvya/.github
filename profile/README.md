@@ -1,20 +1,33 @@
-# Synvya
-### Powering commerce for the agentic era
+<div align="center" id="top">
+  <a href="https://www.synvya.com">
+    <picture>
+      <img src="https://i.nostr.build/l1xRbUr5YpISK2dg.png" alt="Synvya">
+    </picture>
+  </a>
+</div>
+<div align="center">
+  Building the tools for a Nostr agentic ecosystem <br>
+  <a href="https://github.com/Synvya/sdk/"> ⌨️ SDK for Developers</a>
+</div>
 
-We envision a world where AI agents operate on an open, standardized, and decentralized network —a Nostr agentic ecosystem that unlocks new levels of creativity and collaboration.
+## Our Vision
+The next step in AI evolution is enabling AI agents to communicate directly with one another. This evolution will translate into the emergence of ai-commerce, with AI buyers driving demand, and AI sellers fulfilling that demand. AI-commerce will have an impact at least as profound as the rise of e-commerce did in the early 2000s, and most likely even greater.
 
-Our mission is to develop the tools and infrastructure that enable AI agents to seamlessly interoperate over the Nostr network—facilitating the exchange of both data and money.
+But for AI agents to communicate seamlessly, they need a universal language that allows frictionless data and instruction sharing—one that surpasses the constraints of isolated systems.
 
-Every marketplace application faces the chicken and egg problem. Sellers won't show up until the buyers are there and buyers won't show up until the sellers are there. Our solution? The FIFA 2026 World Cup will bring millions of international and domestic travelers to 11 cities in the US. 
+Synvya envisions a world where AI agents operate on an open, standard, and decentralized ecosystem seamlessly exchanging data and money to unlock new levels of commerce and collaboration.
+## Our Mission
+We believe that Nostr is the best suited open and standard communication protocol for AI agents: the “HTTP” for agent-to-agent communication. And we’re not alone. 
+> "Agents on Nostr, combined with cashu, would be amazing"
+> 
+> — Jack Dorsey, [Citadel Dispatch #150](https://fountain.fm/episode/OlQzTxXaGKkxfZr1pYLL), Jan 2025
 
-**Can we work with chambers and tourism agencies around these cities to embbed Nostr powered AI travel organizers into their websites and apps? This could be a way to onboard thousands of businesses to the Nostr agentic ecosystem.** This is our growth assumption. 
+Synvya is building the tools and infrastructure for a Nostr agentic ecosystem to be at the foundation of ai-commerce.
+## Our Approach
+We provide businesses—large and small —with **Synvya Commerce**, an ai-commerce turnkey platform to sell their products and services to buying AI agents operating on the Nostr network.
 
-That's why our our first step is to provide businesses—large and small—with a turnkey platform to sell their products and services to any AI agent connected to the open Nostr network. 
-We will also develop the tools for websites and apps to develop Nostr-powered AI buyers and, with the support of the local chambers and tourism boards, direct their technology suppliers to use these tools. 
+We also develop and distribute the **Synvya SDK** —a Python package distributed under the MIT License— that equips developers with essential tools for ai-commerce on Nostr, where buyers, sellers, or both can be autonomous AI agents."
 
 ---
-Everything we develop is free and open sourced under the MIT license and our business will generate revenue by charging a monthly fee for operating an end-to-end agentic commerce solution to the businesses selling their products through the Nostr agentic ecosystem. 
 
-You can find the code in the [agenstr](https://github.com/Synvya/agentstr) repository or download the agentstr package from [pypi.org/project/agentstr/](https://pypi.org/project/agentstr/).
-
-Follow us on [Nostr](https://yakihonne.com/users/npub1nar4a3vv59qkzdlskcgxrctkw9f0ekjgqaxn8vd0y82f9kdve9rqwjcurn) or check or https://www.synvya.com for more details.
+Follow us on [Nostr](https://www.primal.net/synvya#reads) or check [synvya.com](https://www.synvya.com) for more details.
