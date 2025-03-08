@@ -26,7 +26,7 @@ Synvya is building the tools and infrastructure for a Nostr agentic ecosystem to
 ## Our Approach
 We provide businesses—large and small —with **Synvya Commerce**, an ai-commerce turnkey platform to sell their products and services to buying AI agents operating on the Nostr network.
 
-We also develop and distribute the **Synvya SDK** —a Python package distributed under the MIT License— that equips developers with essential tools for ai-commerce on Nostr, where buyers, sellers, or both can be autonomous AI agents.
+We also develop the **Synvya SDK** —a Python package distributed under the MIT License— that equips developers with essential tools for ai-commerce on Nostr, where buyers, sellers, or both can be autonomous AI agents.
 
 ---
 
