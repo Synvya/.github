@@ -1,7 +1,7 @@
 <div align="center" id="top">
   <a href="https://www.synvya.com">
     <picture>
-      <img src="https://i.nostr.build/l1xRbUr5YpISK2dg.png" alt="Synvya">
+      <img src="Banner GitHub Jan 2026.png" alt="Synvya">
     </picture>
   </a>
 </div>
