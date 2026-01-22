@@ -15,8 +15,9 @@
 
 # Synvya — Be the answer when diners ask AI
 
-Synvya helps restaurants get found when guests ask AI assistants (ChatGPT, Claude, Perplexity) where to eat — and converts those recommendations into **direct** reservations and (soon) takeout, without aggregator fees.  
-Learn more at [synvya.com](https://synvya.com).
+Synvya helps restaurants get found when guests ask AI assistants (ChatGPT, Claude, Perplexity) where to eat — and turns those recommendations into **direct bookings**. Guests can make reservations straight with your restaurant through their assistant of choice, with **no marketplace in the middle** and **no commission layer**. You keep ownership of the guest relationship and the data you generate (intent, preferences, and repeat visits), rather than handing it to a closed directory app.  
+
+Learn more and sign up at [synvya.com](https://synvya.com).
 
 ## What restaurants get
 - **AI Discovery:** AI-optimized restaurant + menu data so assistants can recommend you accurately.
