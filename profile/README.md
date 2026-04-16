@@ -37,7 +37,7 @@ Learn more and sign up at [synvya.com](https://synvya.com).
 
 ## Security & privacy
 - Restaurant keys are generated locally and used to sign/publish data.
-- Reservation messages use encrypted using restaurant keys.
+- Reservation messages are encrypted using restaurant keys.
 - Your data stays under your control; the goal is direct guest relationships.
 
 ## Roadmap
