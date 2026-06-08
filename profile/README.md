@@ -7,13 +7,13 @@
 </div>
 <div align="center">
   <br>
-  <a href="https://synvya.com/">Be the answer when diners ask AI</a>
+  <a href="https://synvya.com/">New customers. Turned into regulars.</a>
   </br>
 </div>
 
 ---
 
-# Synvya — Be the answer when diners ask AI
+# We bring new customers and turn them into regulars.
 
 Synvya helps restaurants get found when guests ask AI assistants (ChatGPT, Claude, Perplexity) where to eat — and turns those recommendations into **direct bookings**. Guests can make reservations straight with your restaurant through their assistant of choice, with **no marketplace in the middle** and **no commission layer**. You keep ownership of the guest relationship and the data you generate (intent, preferences, and repeat visits), rather than handing it to a closed directory app.  
 
