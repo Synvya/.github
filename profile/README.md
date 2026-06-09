@@ -1,72 +1,73 @@
 <div align="center" id="top">
   <a href="https://www.synvya.com">
     <picture>
-      <img src="Banner GitHub Jan 2026.png" alt="Synvya">
+      <img src="synvya-github-1280x640.png" alt="Synvya">
     </picture>
   </a>
 </div>
 <div align="center">
   <br>
-  <a href="https://synvya.com/">New customers. Turned into regulars.</a>
-  </br>
+  <a href="https://synvya.com/">New customers in. Regulars out.</a>
+  <br>
 </div>
 
 ---
 
-# We bring new customers and turn them into regulars.
+# New customers in. Regulars out.
 
-Synvya helps restaurants get found when guests ask AI assistants (ChatGPT, Claude, Perplexity) where to eat — and turns those recommendations into **direct bookings**. Guests can make reservations straight with your restaurant through their assistant of choice, with **no marketplace in the middle** and **no commission layer**. You keep ownership of the guest relationship and the data you generate (intent, preferences, and repeat visits), rather than handing it to a closed directory app.  
+Synvya brings new diners through your door and turns them into regulars — and the relationship stays with you. **No commission, no middleman, no app store.**
+
+Delivery apps and directories rent you a customer once, take a cut, and keep the relationship. Synvya does the opposite: every new guest you meet becomes a customer **you** own — along with the data they generate (visits, preferences, repeat behavior).
 
 Learn more and sign up at [synvya.com](https://synvya.com).
 
-## What restaurants get
-- **AI Discovery:** AI-optimized restaurant + menu data so assistants can recommend you accurately.
-- **Real-time updates:** Keep one source of truth for your menu, hours, and details.
-- **Direct conversion:** Reservations (and takeout coming next) routed to you, not a middleman.
+## How it works
 
-## How it works (high level)
-1. A restaurant publishes a verified profile + structured menu data.
-2. AI assistants discover the restaurant via open protocols.
-3. Reservations are negotiated via a lightweight, privacy-preserving message flow (encrypted).
-4. (Next) Orders and fulfillment flow end-to-end.
+1. **Put your storefront QR where guests can see it** — on the table tent, the counter, the receipt.
+2. **A new guest scans and claims a _Welcome-In_ reward on their first visit.** You just acquired a customer, not a click.
+3. **Synvya remembers them.** A _Welcome-Back_ offer earns the return visit.
+4. **They become a regular** — and the customer relationship and data stay with you, not a delivery app.
+
+## What restaurants get
+
+- **Two offers that do the work** — _Welcome-In_ to acquire, _Welcome-Back_ to retain. Set them once.
+- **Pulse** — redemptions, new customers, and repeat rate at a glance.
+- **A customer directory you actually own** — not a list rented back to you.
+- **Your storefront QR + restaurant page** — one link to share, one code to scan.
+- **No commission. No middleman.** You keep the margin and the relationship.
+
+## For diners
+
+- **Explore** the best offers, happy hours, and events nearby.
+- **Save** your favorites and the rewards you’ve earned.
+- **Scan to claim** — no app store, no signup.
+
+## Why it’s different
+
+- **You own the customer and the data** — intent, preferences, and repeat visits stay yours, not a closed directory app’s.
+- **Built on open protocols (Nostr)** — your keys are generated locally and used to sign and publish your data; your data stays under your control.
+- **No commission layer** between you and your guests.
 
 ## Start here (restaurants)
-- Create an account: https://account.synvya.com
-- Publish your restaurant profile + menu
-- Enable reservation messaging (if applicable)
 
-## Security & privacy
-- Restaurant keys are generated locally and used to sign/publish data.
-- Reservation messages use encrypted using restaurant keys.
-- Your data stays under your control; the goal is direct guest relationships.
-
-## Roadmap
-- [ ] Harden reservation protocol + broader interoperability
-- [ ] Takeout / ordering as an additional conversion channel
+- Create an account: https://account.synvya.com/signup
+- Set up your **Welcome-In** and **Welcome-Back** offers
+- Print your storefront QR and put it where guests can scan
 
 ---
 
 Follow us on [Nostr](https://www.primal.net/synvya#notes) or check [synvya.com](https://www.synvya.com) for more details.
 
 ---
-## For Developers
 
-## Repos
-- **client** — Merchant onboarding + profile management + menu publishing (Square catalog → structured menu events).  
-  Includes reservation messaging + encryption details and menu event generation (kinds 30402/30405).  
-- **mcp-server** — MCP server for AI assistants that want to discover restaurants.
-- **reservation-protocol** — Draft Nostr Implementation Possibilities (NIP) for restaurant reservations (protocol + schemas).
+## For developers
 
-## Protocol quick reference
-- **Restaurant profile:** kind `0`
-- **Menu items:** kind `30402`
-- **Menu collections/sections:** kind `30405`
-- **Reservations (4-message flow):**
-  - `9901` request → `9902` response (confirm/decline/cancel)
-  - `9903` modify request → `9904` modify response
-  - Messages exchanged via encrypted gift-wrapped patterns
+Synvya is **Nostr-native**: restaurants and diners are identified by their own keys. Profiles, menus, offers, happy hours, and events are all publishd on Nostr. No central database owns the relationship; the restaurant does.
 
-## References
-- [NIP-01](https://github.com/nostr-protocol/nips/blob/master/01.md)
-- [NIP-59](https://github.com/nostr-protocol/nips/blob/master/59.md) Gift Wrap
-- Gamma Markets [marketplace specification](https://github.com/GammaMarkets/market-spec/blob/main/spec.md)
+### Repos
+
+- **account** — Synvya Restaurant portal (`account.synvya.com`): onboarding, restaurant profile, the two offer slots (Welcome-In / Welcome-Back), Pulse metrics, and the customer directory.
+- **diners** — Synvya Diners PWA (`diners.synvya.com`): Explore, saved offers, favorites, and the scan-to-claim flow. No app store, no signup.
+- **server** - Backend infrastructure for Synvya Restaurant and Synvya Diners
+- **website** — Marketing site (`synvya.com`).
+- **docs** — Architecture, protocol specs, and the Synvya North Star.
