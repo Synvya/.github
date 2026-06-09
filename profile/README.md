@@ -74,4 +74,4 @@ Synvya is **Nostr-native**: restaurants and diners are identified by their own k
 
 ## License
 
-Released under the **MIT License**. See [`LICENSE`](../LICENSE) for the full text.
+Released under the **MIT License**.
