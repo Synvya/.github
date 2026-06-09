@@ -50,7 +50,7 @@ Learn more and sign up at [synvya.com](https://synvya.com).
 
 ## Start here (restaurants)
 
-- Create an account: https://account.synvya.com/signup
+- Join the Uncut Restaurant Network at [synvya.com](https://synvya.com)
 - Set up your **Welcome-In** and **Welcome-Back** offers
 - Print your storefront QR and put it where guests can scan
 
