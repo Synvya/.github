@@ -15,44 +15,44 @@
 
 # New customers in. Regulars out.
 
-Synvya brings new diners through your door and turns them into regulars — and the relationship stays with you. **No commission, no middleman, no app store.**
+Synvya brings new customers and turn them into regulars. And the relationship stays with you. **No commission, no middleman, no app store.**
 
-Delivery apps and directories rent you a customer once, take a cut, and keep the relationship. Synvya does the opposite: every new guest you meet becomes a customer **you** own — along with the data they generate (visits, preferences, repeat behavior).
+Delivery apps and directories rent you a customer once, take a cut, and keep the relationship. Synvya does the opposite: every new guest you meet becomes a customer **you** own, along with the data they generate (visits, preferences, repeat behavior).
 
 Learn more and sign up at [synvya.com](https://synvya.com).
 
 ## How it works
 
-1. **Put your storefront QR where guests can see it** — on the table tent, the counter, the receipt.
+1. **Put your storefront QR where guests can see it.** On the table tent, the counter, the receipt.
 2. **A new guest scans and claims a _Welcome-In_ reward on their first visit.** You just acquired a customer, not a click.
 3. **Synvya remembers them.** A _Welcome-Back_ offer earns the return visit.
-4. **They become a regular** — and the customer relationship and data stay with you, not a delivery app.
+4. **They become a regular.** And the customer relationship and data stay with you, not a delivery app.
 
 ## What restaurants get
 
-- **Two offers that do the work** — _Welcome-In_ to acquire, _Welcome-Back_ to retain. Set them once.
-- **Pulse** — redemptions, new customers, and repeat rate at a glance.
-- **A customer directory you actually own** — not a list rented back to you.
-- **Your storefront QR + restaurant page** — one link to share, one code to scan.
+- **Two offers that do the work.** _Welcome-In_ to acquire, _Welcome-Back_ to retain. Set them once.
+- **Pulse.** Redemptions, new customers, and repeat rate at a glance.
+- **A customer directory you actually own.** Not a list rented back to you.
+- **Your storefront QR + restaurant page.** One link to share, one code to scan.
 - **No commission. No middleman.** You keep the margin and the relationship.
 
 ## For diners
 
 - **Explore** the best offers, happy hours, and events nearby.
 - **Save** your favorites and the rewards you’ve earned.
-- **Scan to claim** — no app store, no signup.
+- **Scan to claim** _Welcome-In_ and _Welcome-Back_ offers. No email, no phone number, no signup, no app. 
 
 ## Why it’s different
 
-- **You own the customer and the data** — intent, preferences, and repeat visits stay yours, not a closed directory app’s.
-- **Built on open protocols (Nostr)** — your keys are generated locally and used to sign and publish your data; your data stays under your control.
-- **No commission layer** between you and your guests.
+- **You own the customer and the data.** Intent, preferences, and repeat visits stay yours, not a closed directory app’s.
+- **Built on open protocols.** Your identity and your data are always yours.
+- **No commission. No middleman. No monthly tax.** No monthly tax. We make money when you do, on bookings and orders. The rate is flat, never a cut.
 
-## Start here (restaurants)
+## Start here
 
-- Join the Uncut Restaurant Network at [synvya.com](https://synvya.com)
-- Set up your **Welcome-In** and **Welcome-Back** offers
-- Print your storefront QR and put it where guests can scan
+1. Join the Uncut Restaurant Network at [synvya.com](https://synvya.com)
+2. Set up your **Welcome-In** and **Welcome-Back** offers
+3. Print your storefront QR and put it where guests can scan
 
 ---
 
@@ -66,8 +66,36 @@ Synvya is **Nostr-native**: restaurants and diners are identified by their own k
 
 ### Repos
 
-- **account** — Synvya Restaurant portal (`account.synvya.com`): onboarding, restaurant profile, the two offer slots (Welcome-In / Welcome-Back), Pulse metrics, and the customer directory.
-- **diners** — Synvya Diners PWA (`diners.synvya.com`): Explore, saved offers, favorites, and the scan-to-claim flow. No app store, no signup.
-- **server** - Backend infrastructure for Synvya Restaurant and Synvya Diners
-- **website** — Marketing site (`synvya.com`).
-- **docs** — Architecture, protocol specs, and the Synvya North Star.
+- **account:** Synvya Restaurant portal (`account.synvya.com`): onboarding, restaurant profile, the two offer slots (Welcome-In / Welcome-Back), Pulse metrics, and the customer directory.
+- **diners:** Synvya Diners PWA (`diners.synvya.com`): Explore, saved offers, favorites, and the scan-to-claim flow. No app store, no signup.
+- **server:** Backend infrastructure for Synvya Restaurant and Synvya Diners
+
+---
+
+## License
+
+Released under the **MIT License**. See [`LICENSE`](../LICENSE) for the full text.
+
+```
+MIT License
+
+Copyright (c) 2026 Synvya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
