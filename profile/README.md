@@ -1,7 +1,7 @@
 <div align="center" id="top">
   <a href="https://www.synvya.com">
     <picture>
-      <img src="synvya-github-1280x640.png" alt="Synvya">
+      <img src="synvya-github-hero-1280x400.png" alt="Synvya">
     </picture>
   </a>
 </div>
